@@ -1,2 +1,2 @@
 # Full-Stack-Blog-Website
- A fullStack website made using React.js, Express.js and MySQL
+ A fullStack website made using MERN Stack
