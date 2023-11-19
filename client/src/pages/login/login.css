@@ -1,0 +1,64 @@
+.login{
+  height: calc(100vh - 80px);
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),url('/src/assets/low-poly-grid-haikei.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.loginTitle{
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.loginForm{
+  width: 50%;
+  max-width: 300px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.loginForm > label{
+  margin: 10px 0px;
+  font-weight: 500;
+}
+
+.loginInput{
+  padding: 10px;
+  background: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.loginButton{
+  margin-top: 20px;
+  cursor: pointer;
+  background: lightcoral;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.loginButton:disabled{
+  cursor: not-allowed;
+  background: coral;
+}
+
+.loginRegisterButton{
+  position: absolute;
+  top: 90px;
+  right: 20px;
+  background: teal;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}

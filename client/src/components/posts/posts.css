@@ -1,0 +1,9 @@
+.posts{
+  flex: 9;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  /* background: pink; */
+  justify-content: space-evenly;
+  padding: 30px 0px;
+}
